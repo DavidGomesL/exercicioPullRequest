@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+/*Ajuste do body*/
+body {
+    /*cor hexa do background-image: #148a5a*/
+    background-image: url(./assets/wave.png);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*ajuste logo*/
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cabecalho .logo {
+    height: 5vh;
+}
+#cabecalho .shopifyTitle {
+    color: white;
+}
