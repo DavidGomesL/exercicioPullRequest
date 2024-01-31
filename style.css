@@ -17,10 +17,47 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3vh;
 }
 #cabecalho .logo {
     height: 5vh;
 }
 #cabecalho .shopifyTitle {
     color: white;
+}
+/*Ajuste Title*/
+#title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+/*Ajuste inputButtonP*/
+#inputButtonP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+#inputButtonP p {
+    text-align: center;
+    width: 40vw;
+    font-size: 12px;
+}
+#inputButtonP .inputBu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 43vw;
+}
+#inputButtonP .inputBu input{
+    height: 5.3vh;
+    width: 25vw;
+}
+#inputButtonP .inputBu button{
+    height: 6vh;
+    width: 10vw;
 }
