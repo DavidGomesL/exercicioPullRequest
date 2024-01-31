@@ -8,11 +8,9 @@
 body {
     /*cor hexa do background-image: #148a5a*/
     background-image: url(./assets/wave.png);
-    background-position: 0% 0%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+    background-size: 170%;
 }
 
 /*ajuste logo*/
