@@ -70,4 +70,20 @@ body {
     width: 40vw;
     font-size: 12px;
     margin-top: 3vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+/*Ajuste da imagem central*/
+#img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+/*Ajuste Description*/
+#description {
+    display: flex;
+    text-align: left;
+}
+#description div {
+    
 }
