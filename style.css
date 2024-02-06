@@ -77,13 +77,28 @@ body {
 #img {
     display: flex;
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 10vh;
+    height: 36vh;
 }
 /*Ajuste Description*/
 #description {
     display: flex;
-    text-align: left;
+    justify-content: center;
+    margin-top: 4vh;
 }
 #description div {
-    
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+#description span {
+    font-size: 40px;
+    color: #148a5a;
+}
+#description p {
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1vh;
 }
