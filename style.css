@@ -71,9 +71,3 @@ body {
     font-size: 12px;
     margin-top: 3vh;
 }
-/*Ajuste da imagem central*/
-#img {
-    display: flex;
-    justify-content: center;
-    margin-top: 2vh;
-}
