@@ -138,3 +138,19 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 12px;
 }
+/*Ajuste button start free*/
+#startFree {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12vh;
+}
+#startFree button {
+    width: 10vw;
+    height: 6vh;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #148a5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
